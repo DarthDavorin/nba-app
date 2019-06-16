@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <title>NBA Statistika</title>
+
+    <!-- Stilovi -->
+    <link rel="stylesheet" href="nba.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
+</head>
+<body id="bootstrap-overrides">
+    <div class="naslov">
+    </div>
+    
+    <div class="container px-0">
+        <div class="row">
+            <!-- Klubovi -->
+            <div class="clubsDiv col">
+                <h2>Clubs</h2>
+    
+                <table class="clubsTablica table table-hover table-bordered text-center">
+                    <tr class="headerRow1 table-primary">
+                        <th class="prvi">ID</th>
+                        <th>Club</th>
+                        <th>City</th>
+                        <th>GP</th>
+                        <th>MIN</th>
+                        <th>PTS</th>
+                        <th>FGA</th>
+                        <th class="zadnji">FGM</th>
+                    </tr>
+                    <tr class="row1Club">
+                        <td class ="clubsTd" colspan="8">
+                        Podaci nisu učitani.
+                        </td>
+                    </tr>
+                </table>
+            </div>
+
+            <div class="playersDiv col pl-6">
+                <h2>Players</h2>
+
+                <table class="playersTablica table table-hover table-bordered text-center">
+                    <tr class="headerRow2 table-primary">
+                        <th class="prvi">ID</th>
+                        <th>No.</th>
+                        <th>First Name</th>
+                        <th>Last Name</th>
+                        <th>GP</th>
+                        <th>MIN</th>
+                        <th>PTS</th>
+                        <th>FGA</th>
+                        <th class="zadnji">FGM</th>
+                    </tr>
+                    
+                    <tr class="row1Player">
+                        <td class="playersTd text-left" colspan="9">
+                            Podaci nisu učitani.
+                        </td>
+                    </tr>
+                </table>
+            </div>  
+        </div>
+    </div>
+
+    <!-- Javascript import -->
+    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.4.0.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js"></script>
+    <script src="view.js"></script>
+</body>
+</html>

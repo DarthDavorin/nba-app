@@ -1,0 +1,69 @@
+body{
+    margin: 0px;
+}
+
+#bootstrap-overrides .container {
+    padding-left: 200px;
+    padding-top: 15px;
+}
+
+#bootstrap-overrides h2 {
+    font-family: 'Fjalla One', sans-serif;
+    color: #1570b5;
+}
+
+#bootstrap-overrides form {
+    font-family: 'Fjalla One', sans-serif, bold;
+    font-size: 20px;
+}
+
+#bootstrap-overrides input {
+    border-radius: 15px;
+    text-align: center;
+    border-color: black;
+    border-style: solid;
+}
+
+#bootstrap-overrides input[type="text"]:focus {
+    outline: none;
+    border-color: #1570b5;
+}
+
+#bootstrap-overrides input[type="number"]:focus {
+    outline: none;
+    border-color: #1570b5;
+}
+
+#bootstrap-overrides input[type="submit"] {
+    border-radius: 12px;
+    border-style: solid;
+    border-color: black;
+    background-color: #1570b5;
+    color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+}
+
+#bootstrap-overrides input[type="submit"]:hover {
+    background-color: #10558a;
+}
+
+#bootstrap-overrides input[type="submit"]:focus {
+    outline: none;
+}
+
+#bootstrap-overrides .idKluba {
+    border-radius: 15px;
+    margin-bottom: 20px;
+    padding: 5px;
+    border-style: solid;
+    border-color: black;
+}
+
+#bootstrap-overrides .idKluba:focus {
+    outline: none;
+}
+

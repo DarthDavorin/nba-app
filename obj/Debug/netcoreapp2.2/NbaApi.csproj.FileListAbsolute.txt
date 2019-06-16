@@ -1,0 +1,14 @@
+C:\Users\davor\NbaApi\bin\Debug\netcoreapp2.2\NbaApi.deps.json
+C:\Users\davor\NbaApi\bin\Debug\netcoreapp2.2\NbaApi.runtimeconfig.json
+C:\Users\davor\NbaApi\bin\Debug\netcoreapp2.2\NbaApi.runtimeconfig.dev.json
+C:\Users\davor\NbaApi\bin\Debug\netcoreapp2.2\NbaApi.dll
+C:\Users\davor\NbaApi\bin\Debug\netcoreapp2.2\NbaApi.pdb
+C:\Users\davor\NbaApi\obj\Debug\netcoreapp2.2\NbaApi.csprojAssemblyReference.cache
+C:\Users\davor\NbaApi\obj\Debug\netcoreapp2.2\NbaApi.csproj.CoreCompileInputs.cache
+C:\Users\davor\NbaApi\obj\Debug\netcoreapp2.2\NbaApi.RazorAssemblyInfo.cache
+C:\Users\davor\NbaApi\obj\Debug\netcoreapp2.2\NbaApi.RazorAssemblyInfo.cs
+C:\Users\davor\NbaApi\obj\Debug\netcoreapp2.2\NbaApi.AssemblyInfoInputs.cache
+C:\Users\davor\NbaApi\obj\Debug\netcoreapp2.2\NbaApi.AssemblyInfo.cs
+C:\Users\davor\NbaApi\obj\Debug\netcoreapp2.2\NbaApi.RazorTargetAssemblyInfo.cache
+C:\Users\davor\NbaApi\obj\Debug\netcoreapp2.2\NbaApi.dll
+C:\Users\davor\NbaApi\obj\Debug\netcoreapp2.2\NbaApi.pdb

@@ -1,0 +1,38 @@
+
+body {
+    margin: 0px;
+}
+
+
+.naslov {
+    margin: 35px;
+    background-image: url(nba-stats-logo.png);
+    padding-bottom: 70px;
+    padding-top: 70px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 300px;
+}
+
+#bootstrap-overrides .container {
+    max-width: 1400px;
+    margin: 25px;
+    margin-left: 60px;
+}
+
+#bootstrap-overrides th {
+    background-color: #002f50;
+    color: white;
+    border-color: white;
+    border-bottom-color: #002f50;
+    border-top-color: #002f50;
+}
+
+#bootstrap-overrides .prvi {
+    border-left-color: #002f50;
+}
+
+#bootstrap-overrides .zadnji {
+    border-right-color: #002f50;
+}
+
