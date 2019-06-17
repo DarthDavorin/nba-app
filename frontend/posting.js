@@ -1,6 +1,6 @@
 $(document).ready(function(){
 
-    //getanje klubova
+    //GET-anje klubova
     $.ajax({
         url: "https://localhost:5001/api/Nba/Clubs",
         method: "GET",
@@ -23,16 +23,20 @@ $(document).ready(function(){
         }
     });
 
-    //postanje kluba
+    //POST-anje kluba
+
+    //Sprječavanje zadanog ponašanja forme
     $(".clubForm").submit(function(event){
         event.preventDefault();
         event.stopPropagation();
     });
 
+    //Sprječavanje zadanog ponašanja submit button-a
     $('input[name="Submit1"]').on('click', function(event){
         event.preventDefault();
         event.stopPropagation();
 
+        //Spremanje vrijednosti u property-e objekta
         var clubName = $("input[name='Clubname']").val();
         var clubCity = $("input[name='Clubcity']").val();
         var GP = $("input[name='GP']").val();
@@ -41,7 +45,7 @@ $(document).ready(function(){
         var FGM = $("input[name='FGM']").val();
         var FGA = $("input[name='FGA']").val();
 
-        //objekt za klub    
+        //Objekt za klub    
         var clubObject = {
             clubName: clubName,
             clubCity: clubCity,
@@ -81,7 +85,7 @@ $(document).ready(function(){
     });
 
 
-    //postanje igrača
+    //POST-anje igrača
     $(".playerForm").submit(function(event){
         event.preventDefault();
         event.stopPropagation();

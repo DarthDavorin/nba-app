@@ -53,6 +53,7 @@ function onClubClick(clubId) {
                 $tdFGA.text(playeri.fga);
                 $tdFGM.text(playeri.fgm);
 
+                //dodavanje row-a u tablicu
                 $table.append($row);
                 
             });
@@ -106,6 +107,7 @@ $(document).ready(function(){
                 $tdFGA.text(clubs.fga);
                 $tdFGM.text(clubs.fgm);
 
+                //dodavanje row-a u tablicu
                 $table.append($row);
 
                 $row.on('click', function() {
