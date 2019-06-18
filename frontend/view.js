@@ -47,11 +47,11 @@ function onClubClick(clubId) {
                 $tdNumber.text(playeri.number);
                 $tdFirstname.text(playeri.firstname);
                 $tdLastname.text(playeri.lastname);
-                $tdGP.text(playeri.gp);
-                $tdMIN.text(playeri.min);
-                $tdPTS.text(playeri.pts);
-                $tdFGA.text(playeri.fga);
-                $tdFGM.text(playeri.fgm);
+                $tdGP.text(playeri.gp.toFixed(2));
+                $tdMIN.text(playeri.min.toFixed(2));
+                $tdPTS.text(playeri.pts.toFixed(2));
+                $tdFGA.text(playeri.fga.toFixed(2));
+                $tdFGM.text(playeri.fgm.toFixed(2));
 
                 //dodavanje row-a u tablicu
                 $table.append($row);
@@ -102,10 +102,10 @@ $(document).ready(function(){
                 $tdClub.text(clubs.clubName);
                 $tdCity.text(clubs.clubCity);
                 $tdGP.text(clubs.gp);
-                $tdMIN.text(clubs.min);
-                $tdPTS.text(clubs.pts);
-                $tdFGA.text(clubs.fga);
-                $tdFGM.text(clubs.fgm);
+                $tdMIN.text(clubs.min.toFixed(2));
+                $tdPTS.text(clubs.pts.toFixed(2));
+                $tdFGA.text(clubs.fga.toFixed(2));
+                $tdFGM.text(clubs.fgm.toFixed(2));
 
                 //dodavanje row-a u tablicu
                 $table.append($row);
